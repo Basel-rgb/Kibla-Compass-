@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Qibla Compass</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <div id="angle-display">Qibla-Winkel: ...</div>
+    <img src="background.jpg" class="background" alt="Background" />
+    <img src="compass.png" class="compass" alt="Compass" />
+    <img src="nadel.png" id="needle" class="needle" alt="Needle" />
+    <div id="motion-permission" class="popup">
+      <div class="popup-box">
+        <p>Um den Kompass zu aktivieren, musst du den Zugriff auf Bewegungsdaten erlauben.</p>
+        <button id="enable-motion">Bewegungssensor aktivieren</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
